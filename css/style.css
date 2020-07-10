@@ -8742,8 +8742,7 @@ body.active .mscroll {
   margin-right: 0;
 }
 #Testimonials .testi-wrapper .old-testimonials-shsapp {
-  background: url("../images/SHSApp1.png") no-repeat bottom
-    center / cover;
+  background: url("../images/SHSApp1.png") no-repeat bottom center / cover;
   padding: 50px;
   margin: 0 10px;
   height: 650px;
@@ -8751,8 +8750,7 @@ body.active .mscroll {
   text-align: center;
 }
 #Testimonials .testi-wrapper .old-testimonials-dwyerapp {
-  background: url("../images/DwyerApp.png") no-repeat bottom
-    center / cover;
+  background: url("../images/DwyerApp.png") no-repeat bottom center / cover;
   padding: 50px;
   margin: 0px 10px;
   height: 610px;
@@ -8760,11 +8758,10 @@ body.active .mscroll {
   text-align: center;
 }
 #Testimonials .testi-wrapper .old-testimonials-trophyapp {
-  background: url("../images/trophyApp1.png") no-repeat bottom
-    center / cover;
+  background: url("../images/trophyApp1.png") no-repeat bottom center / cover;
   padding: 50px;
   margin: 0px 10px;
-  height: auto*2;
+  height: auto * 2;
   position: relative;
   text-align: center;
 }
