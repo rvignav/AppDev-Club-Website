@@ -528,6 +528,7 @@ pre code {
   margin-left: auto;
 }
 .row {
+  padding: 15px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -535,6 +536,14 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /*height: 300px;  Should be removed. Only for demonstration */
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -8732,15 +8741,34 @@ body.active .mscroll {
 #Testimonials .testi-wrapper .old-testimonials.no-margin {
   margin-right: 0;
 }
-#Testimonials .testi-wrapper .old-testimonials {
-  background: url("../images/testimonials-background.jpg") no-repeat bottom
+#Testimonials .testi-wrapper .old-testimonials-shsapp {
+  background: url("../images/SHSApp1.png") no-repeat bottom
     center / cover;
-  padding: 30px 50px;
+  padding: 50px;
   margin: 0 10px;
-  height: 300px;
+  height: 650px;
   position: relative;
   text-align: center;
 }
+#Testimonials .testi-wrapper .old-testimonials-dwyerapp {
+  background: url("../images/DwyerApp.png") no-repeat bottom
+    center / cover;
+  padding: 50px;
+  margin: 0px 10px;
+  height: 610px;
+  position: relative;
+  text-align: center;
+}
+#Testimonials .testi-wrapper .old-testimonials-trophyapp {
+  background: url("../images/trophyApp1.png") no-repeat bottom
+    center / cover;
+  padding: 50px;
+  margin: 0px 10px;
+  height: auto*2;
+  position: relative;
+  text-align: center;
+}
+
 #Testimonials .division {
   margin-bottom: 30px;
 }
